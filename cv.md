@@ -22,3 +22,16 @@ I welcome everyone who came to my resume! I have been working in website support
 * Cms Wordpress
 * SEO (for development)
 * Figma, Photoshop (for development)
+
+##Code Examples
+
+```Nothing yet...```
+
+##Experience
+* **2010-2015** - seo optimizer
+* **2015 - present** - layout of simple websites, working with various cms, finding and solving errors, working with content
+
+##Education 
+
+* ITMO Layout courses
+* Video courses on various platforms
