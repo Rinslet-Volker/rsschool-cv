@@ -13,3 +13,12 @@
 
 I welcome everyone who came to my resume! I have been working in website support for simple tasks for a long time. I would like to learn new things, advance in the profession and work in a good team of people with common interests! I like coffee, interesting tasks, reading and playing games (computer and vr)
 
+##Skills
+
+* HTML
+* CSS (Fremework Bootstrap, Flex, Grid)
+* JavaScript (Basic)
+* Git
+* Cms Wordpress
+* SEO (for development)
+* Figma, Photoshop (for development)
