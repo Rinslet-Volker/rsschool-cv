@@ -1,7 +1,7 @@
-#Aleksandra Diakova
+# Aleksandra Diakova
 **Junior frontend developer**
 
-##Contacts
+## Contacts
 **Location:** Saint-Petersburg, Russia
 **E-mail:** [chenaia-web@mail.ru](mailto:chenaia-web@mail.ru)
 
@@ -9,11 +9,11 @@
 **Discord:** Shana#4201
 **GitHub:** [Rinslet-Volker](https://github.com/Rinslet-Volker)
 
-##Profile info
+## Profile info
 
 I welcome everyone who came to my resume! I have been working in website support for simple tasks for a long time. I would like to learn new things, advance in the profession and work in a good team of people with common interests! I like coffee, interesting tasks, reading and playing games (computer and vr)
 
-##Skills
+## Skills
 
 * HTML
 * CSS (Fremework Bootstrap, Flex, Grid)
@@ -23,11 +23,11 @@ I welcome everyone who came to my resume! I have been working in website support
 * SEO (for development)
 * Figma, Photoshop (for development)
 
-##Code Examples
+## Code Examples
 
 ```Nothing yet...```
 
-##Experience
+## Experience
 * **2010-2015** - seo optimizer
 * **2015 - present** - layout of simple websites, working with various cms, finding and solving errors, working with content
 
@@ -35,3 +35,10 @@ I welcome everyone who came to my resume! I have been working in website support
 
 * ITMO Layout courses
 * Video courses on various platforms
+
+## Language
+
+* Russian - native
+* English - Pre-Intermediate
+    * Intermediate level reading (search for a solution in documentation without a dictionary)
+    * Conversation basic level
