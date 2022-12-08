@@ -31,7 +31,7 @@ I welcome everyone who came to my resume! I have been working in website support
 * **2010-2015** - seo optimizer
 * **2015 - present** - layout of simple websites, working with various cms, finding and solving errors, working with content
 
-##Education 
+## Education 
 
 * ITMO Layout courses
 * Video courses on various platforms
