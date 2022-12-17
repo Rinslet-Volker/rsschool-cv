@@ -61,10 +61,12 @@ body {
 
 .container-right {
     padding: 30px 60px;
+    width: 65%;
 }
 
 .container-left {
     padding: 30px 100px;
+    width: 35%;
 }
 
 .h2 {
@@ -164,10 +166,6 @@ body {
     width: 35%;
 }
 
-.profile-info .wrap-text {
-    width: 65%;
-}
-
 .top-menu {
     display: flex;
     justify-content: space-between;
@@ -183,3 +181,84 @@ body {
 }
 
 /******************************.Header*/
+
+/****************************** Main*/
+
+.inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container-left.dark {
+    color: var(--white-color);
+    background-color: var(--dark-color);
+}
+
+.timeline {
+    line-height: 1.4em;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.timeline-item {
+    padding-left: 40px;
+    position: relative;
+}
+
+.timeline-info {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+    margin: 0 0 .5em 0;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+.timeline-marker {
+    position: absolute;
+    top: 0; 
+    bottom: 0; 
+    left: 0;
+    width: 15px;
+}
+
+.timeline-marker:before {
+    content: "";
+    position: absolute;
+    top: 4px; 
+    left: 0;
+    display: block;
+    height: 15px;
+    width: 15px;
+    border: 3px solid transparent;
+    border-radius: 100%;
+    background: var(--dark-color);
+    transition: 0.3s ease-in-out;
+}
+
+.timeline-marker:after {
+    content: "";
+    position: absolute;
+    top: 25px; 
+    bottom: 0; 
+    left: 9px;
+    display: block;
+    width: 3px;
+    background: var(--yellow-color);
+}
+
+.timeline-item:last-child:after {
+        content: none;
+}
+
+.timeline-item:not(.period):hover .timeline-marker:before {
+    background: transparent;
+    border: 3px solid var(--dark-color);
+}
+
+.timeline-content {
+    padding-bottom: 40px;
+}
+
+/******************************.Main*/
