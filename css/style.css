@@ -5,9 +5,9 @@
 :root {
    --dark-color:#2C2E2D;
    --white-color:#F9FBFC;
-   --main-color:rgb(161 236 255);
-   --second-color:#fdd1ea;
-   --opacity-main-color: rgba(161, 236, 255, 0.9);
+   --main-color:#93bef1;
+   --second-color:#FFC540;
+   --opacity-main-color: rgba(147, 190, 241, 0.9);
 }
 
 html {
@@ -27,10 +27,11 @@ body {
 
 .wrapper {
     margin: 20px auto;
+    width: 100%;
     max-width: 1280px;
     font-size: 18px;
     line-height: 1.5;
-    background-color: #ffffff;
+    background-color: var(--white-color);
     box-shadow: 10px 10px 40px -1px rgb(0 0 0 / 23%);
 }
 
@@ -82,7 +83,7 @@ body {
 }
 
 .side-line span {
-    display: f;
+    display: flex;
     vertical-align: middle;
 }
 
@@ -103,7 +104,7 @@ body {
     display: flex;
     order: 2;
     margin-top: -248px;
-    background-color: rgba(161, 236, 255, 0.9);
+    background-color: var(--opacity-main-color);
 }
 
 .basic-info {
@@ -183,6 +184,10 @@ body {
     width: 35%;
 }
 
+.profile-info .photo img {
+    width: 100%;
+}
+
 .top-menu {
     display: flex;
     justify-content: space-between;
@@ -192,10 +197,12 @@ body {
 .top-menu a {
     color: var(--dark-color);
     text-decoration: none;
+    border-bottom: 4px solid transparent;
 }
 
 .top-menu a:hover {
-    text-decoration: underline;
+    border-bottom-color: var(--second-color);
+    transition: all 0.3s linear;
 }
 
 /******************************.Header*/
@@ -211,6 +218,22 @@ body {
     color: var(--white-color);
     background-color: var(--dark-color);
 }
+
+.container-left .h3 {
+    display: flex;
+    margin-top: 40px;
+}
+
+.container-left .h3 i {
+    margin-right: 10px;
+    font-size: 30px;
+    color: var(--second-color);
+}
+
+.container-left li::marker {
+    font-size: 20px;
+    color: var(--main-color);
+ }
 
 .timeline {
     line-height: 1.4em;
@@ -302,7 +325,12 @@ body {
 
 .footer .link-git a {
     font-size: 20px;
+    text-decoration: none;
     color: var(--white-color);
+}
+
+.footer .link-git a:hover {
+    text-decoration: underline;
 }
 
 .footer .link-git i {
