@@ -4,8 +4,10 @@
 
 :root {
    --dark-color:#2C2E2D;
-   --yellow-color:#fdd1ea;
    --white-color:#F9FBFC;
+   --main-color:rgb(161 236 255);
+   --second-color:#fdd1ea;
+   --opacity-main-color: rgba(161, 236, 255, 0.9);
 }
 
 html {
@@ -51,6 +53,7 @@ body {
 
 .h1 {
     margin: 0;
+    font-size: 54px;
     text-transform: uppercase;
 }
 
@@ -62,6 +65,7 @@ body {
 .container-right {
     padding: 30px 60px;
     width: 65%;
+    background-color: var(--white-color);
 }
 
 .container-left {
@@ -110,6 +114,10 @@ body {
     width: 60%;
 }
 
+.section-subtitle {
+    font-size: 34px;
+}
+
 .basic-contacts {
     padding: 0 10px;
     background-color: var(--white-color);
@@ -140,7 +148,7 @@ body {
     height: 50px;
     padding: 10px;
     font-size: 22px;
-    color: var(--yellow-color);
+    color: var(--second-color);
     background-color: var(--dark-color);
 }
 
@@ -156,6 +164,15 @@ body {
     font-weight: bold;;
 }
 
+.basic-contacts a {
+    color: var(--dark-color);
+    text-decoration: none;
+}
+
+.basic-contacts a:hover {
+    text-decoration: underline;
+}
+
 .profile-info {
     display: flex;
     order: 1;
@@ -169,6 +186,7 @@ body {
 .top-menu {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 50px;
 }
 
 .top-menu a {
@@ -233,7 +251,7 @@ body {
     width: 15px;
     border: 3px solid transparent;
     border-radius: 100%;
-    background: var(--dark-color);
+    background: var(--main-color);
     transition: 0.3s ease-in-out;
 }
 
@@ -245,7 +263,7 @@ body {
     left: 9px;
     display: block;
     width: 3px;
-    background: var(--yellow-color);
+    background: var(--second-color);
 }
 
 .timeline-item:last-child:after {
@@ -254,7 +272,7 @@ body {
 
 .timeline-item:not(.period):hover .timeline-marker:before {
     background: transparent;
-    border: 3px solid var(--dark-color);
+    border: 3px solid var(--main-color);
 }
 
 .timeline-content {
@@ -262,3 +280,44 @@ body {
 }
 
 /******************************.Main*/
+
+/******************************Footer*/
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .container-right {
+    justify-content: space-between;
+    background-color: var(--main-color);
+}
+
+.footer .link-git a {
+    font-size: 20px;
+    color: var(--white-color);
+}
+
+.footer .link-git i {
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+.footer .year {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.code-example {
+    color: var(--white-color);
+    background-color: var(--dark-color);
+}
+
+/******************************.Footer*/
