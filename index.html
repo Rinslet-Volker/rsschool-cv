@@ -1,18 +1,227 @@
 <!DOCTYPE html>
-
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-
-  <title>The HTML5 Herald</title>
-  <meta name="description" content="The HTML5 Herald">
-  <meta name="author" content="SitePoint">
-
-  <link rel="stylesheet" href="css/styles.css?v=1.0">
-
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="assets/favicon.ico">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+  <title>CV Junior frontend developer</title>
 </head>
-
 <body>
-  <script src="js/scripts.js"></script>
+  <div class="wrapper">
+    <header class="header">
+      <div class="container">
+        <!--Секция Имя и контакты-->
+        <div class="section contacts" id="contacts">
+          <div class="basic-info">
+            <div class="wrap">
+              <h1 class="section-title h1 dark">Aleksandra Diakova</h1>
+              <span class="section-subtitle dark">Junior frontend developer</span>
+            </div>
+          </div>
+          <div class="basic-contacts">
+            <div class="email">
+              <div class="icon">
+                <i class="fa-regular fa-envelope"></i>
+              </div>
+              <div class="content">
+                <span>E-mail:</span>
+                <span><a href="mailto:chenaia-web@mail.ru">chenaia-web@mail.ru</a></span>
+              </div>
+            </div>
+            <div class="links">
+              <div class="links-item">
+                <div class="icon">
+                  <i class="fa-brands fa-telegram"></i>
+                </div>
+                <div class="content">
+                  <span>Telegram:</span>
+                  <span><a href="https://t.me/Chenaia">Shana // (@Chenaia)</a></span>
+                </div>
+              </div>
+              <div class="links-item">
+                <div class="icon">
+                  <i class="fa-brands fa-discord"></i>
+                </div>
+                <div class="content">
+                  <span>Discord:</span>
+                  <span><a href="https://discordapp.com/users/1049300954731774013/">Shana#4201</a></span>
+                </div>
+              </div>
+            </div>
+            <div class="location">
+              <div class="icon">
+                <i class="fa-solid fa-map-location-dot"></i>
+              </div>
+              <div class="content">
+                <span>Location:</span>
+                <span>Saint-Petersburg, Russia</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--/Секция Имя и контакты-->
+        <!--Секция основная информация (фото, вступительный текст) + меню-->
+        <div class="section profile-info" id="profile-info">
+          <div class="photo">
+            <img src="img/profilepic2.jpg" alt="profile photo">
+          </div>
+          <div class="wrap-text container-right">
+            <nav class="top-menu">
+              <a href="#profile-info">About</a>
+              <a href="#contacts">Contacts</a>
+              <a href="#skills">Skills</a>
+              <a href="#experience">Experience</a>
+              <a href="#education">Education</a>
+              <a href="#code">Code</a>
+            </nav>
+            <h2 class="h2 dark side-line">
+              <span>Profile info</span>
+            </h2>
+            <div class="content">
+              I welcome everyone who came to my resume! I have been working in website support for simple tasks for a long time. I would like to learn new things, advance in the profession and work in a good team of people with common interests! I like coffee, interesting tasks, reading and playing games (computer and vr)
+            </div>
+          </div>
+        </div>
+        <!--/Секция основная информация (фото, вступительный текст)-->
+      </div>
+    </header>
+    <main class="main">
+      <div class="inner">
+        <aside class="container container-left dark">
+          <!--Секция навыки-->
+          <div class="section skills" id="skills">
+            <h2 class="h2">My skills</h2>
+            <div class="wrap">
+              <h3 class="h3"><i class="fa-solid fa-person-rays"></i>Personal skills</h3>
+              <ul>
+                <li>HTML
+                <li>CSS (Fremework Bootstrap, Flex, Grid)</li>
+                <li>JavaScript (Basic)</li>
+                <li>Git</li>
+                <li>Cms Wordpress</li>
+                <li>SEO (for development)</li>
+                <li>Figma, Photoshop (for development)</li>
+              </ul>
+            </div>
+            <div class="wrap">
+              <h3 class="h3"><i class="fa-solid fa-globe"></i>Language skills</h3>
+              <ul>
+                <li>Russian - native speaker</li>
+                <li>English - Pre-Intermediate (in proccess...)
+                  <ul>
+                    <li>Intermediate level reading (search for a solution in documentation without a dictionary)</li>
+                    <li>Conversation basic level</li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <!--/Секция навыки-->
+        </aside>
+        <div class="container container-right light">
+          <!--Секция опыт работы-->
+          <div class="section experience" id="experience" >
+            <h2 class="h2 side-line">Work experience</h2>
+            <ul class="timeline">
+              <li class="timeline-item">
+                <div class="timeline-info">
+                  <span>2010-2015</span>
+                </div>
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                  seo optimizer
+                </div>
+              </li>
+              <li class="timeline-item">
+                <div class="timeline-info">
+                  <span>2015 - present</span>
+                </div>
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                  layout of simple websites, working with various cms, finding and solving errors, working with content
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!--/Секция опыт работы-->
+          <!--Секция образование-->
+          <div class="section education" id="education">
+            <h2 class="h2 side-line">My education</h2>
+            <ul class="timeline timeline-split">
+              <li class="timeline-item">
+                <div class="timeline-info">
+                  <span>2011</span>
+                </div>
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                  ITMO Layout courses
+                </div>
+              </li>
+              <li class="timeline-item">
+                <div class="timeline-info">
+                  <span>2011 - present</span>
+                </div>
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                  Video courses on various platforms
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!--/Секция образование-->
+          <!--Секция пример кода-->
+          <div class="section code" id="code">
+            <h2 class="h2 side-line">Code example</h2>
+            <div class="code-example">
+              <pre>
+                <code class="block-code">
+                  const str2 = 'tseb eht ma i';
+                  let letterReverse = '';
+                  coming soon ...
+                </code>
+              </pre>
+            </div>
+          </div>
+          <!--/Секция пример кода-->
+          <!--Секция проекты-->
+          <div class="section code" id="code">
+            <h2 class="h2 side-line">Projects</h2>
+            <div class="projects-example">
+              Coming soon... (nothing to add yet)
+            </div>
+          </div>
+          <!--/Секция проекты-->
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container-left dark">
+        <div class="link-git">
+          <a href="https://github.com/Rinslet-Volker">
+            <i class="fa-brands fa-github"></i>
+            <span>Visit me in GitHub</span>
+          </a>
+        </div>
+      </div>
+      <div class="container-right">
+        <div class="year">
+          <span>Created in</span>
+          <span>2022</span>
+        </div>
+        <div class="logo-rss-school">
+          <a href="https://rs.school/js-stage0/">
+            <img src="img/rss-logo.svg" alt="logo rsschool" width="200">
+          </a>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="https://kit.fontawesome.com/1a76cd3eff.js" crossorigin="anonymous"></script>
 </body>
 </html>
